@@ -9,9 +9,9 @@ export const CounterApp = ({ value }) => {
 
     // Cuando se cambia el estado el componente se vuelve a renderizar
 
-    const handleAdd = () => { setCounter( counter + 1 );}
-    const handleSubstract = () => { setCounter( counter - 1 );}
-    const handleReset = () => { setCounter( value );}
+    const handleAdd = () => { setCounter(counter + 1) };
+    const handleSubstract = () => { setCounter(counter - 1) };
+    const handleReset = () => { setCounter(value) };
 
     return (
         <>
